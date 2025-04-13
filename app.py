@@ -1,4 +1,4 @@
-text = "This is Gada"
+text = "This is Muhammad Ibrahim"
 text = "The quick brown fox jumps over the lazy dog. The fox was very quick and clever. Every animal in the forest admired the fox for its speed and wit. However, the dog was not amused. He thought the fox was showing off. But in the end, the fox and the dog became good friends."
 text = list(text)
 encode = []
