@@ -41,3 +41,11 @@ def makeTokens(vocabsize, text):
         j += 1
     return dictionary
 
+def merge(text, dictionary):
+    for i in dictionary:
+        for index, j in enumerate(text):
+            if index+1 >= len(text):
+                break
+            if i == (j, text[index+1]):
+                text[index: index+2] = [dictionary[i]]
+    return text
