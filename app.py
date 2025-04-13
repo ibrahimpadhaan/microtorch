@@ -30,7 +30,7 @@ def makeTokens(vocabsize, text):
     freq = frequency(bi)
     # Get indices sorted by descending values
     indices = sorted(range(len(freq)), key=lambda i: freq[i], reverse=True)
-    k = 255
+    k = 256
     j = 0
     while len(dictionary) <= vocabsize and j<len(bi):
         if bi[indices[j]] in dictionary:
